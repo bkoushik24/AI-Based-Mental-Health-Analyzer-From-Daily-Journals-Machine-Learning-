@@ -1,0 +1,24 @@
+                                                text       label
+0     I feel very sad and empty. I cry all the time.  Depression
+1  My anxiety is out of control, especially in so...     Anxiety
+2             Everything feels stressful these days.      Stress
+3           I feel happy and relaxed with my family.     Healthy
+4        I'm not motivated to get out of bed lately.  Depression
+
+Classification Report:
+               precision    recall  f1-score   support
+
+     Anxiety       0.00      0.00      0.00       1.0
+  Depression       0.00      0.00      0.00       0.0
+     Healthy       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       2.0
+   macro avg       0.00      0.00      0.00       2.0
+weighted avg       0.00      0.00      0.00       2.0
+
+Confusion Matrix:
+ [[0 1 0]
+ [0 0 0]
+ [0 1 0]]
+
+Predicted Mental State: Depression
